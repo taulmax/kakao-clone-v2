@@ -5,6 +5,9 @@
 @import "nav-bar.css";
 @import "friend.css";
 @import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
 
 * {
     box-sizing: border-box;
@@ -15,7 +18,7 @@ body {
     padding: 10px 20px;
     color: #1A1A1A;
     font-family: 'Open Sans', sans-serif;
-    height: 200000px;
+    height: 2000px;
 }
 
 a {
