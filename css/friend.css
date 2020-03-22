@@ -67,3 +67,7 @@
     margin-left: 2px;
     color: rgb(88, 221, 88);
 }
+
+.friends__list .friend {
+    margin-bottom: 23px;
+}
