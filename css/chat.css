@@ -118,10 +118,21 @@
     align-self: flex-end;
 }
 
+/* @keyframes spin {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateY(1turn);
+    }
+} */
+
 .incoming-message img {
     width: 40px;
     border-radius: 15px;
     margin-right: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    /* animation: spin 1s linear forwards; */
 }
 
 .message .message__bubble {
@@ -164,4 +175,34 @@
 .sent-message .message__bubble {
     border-bottom-right-radius: 0px;
     background-image: linear-gradient(to right,#DD5E89,#F7BB97);
+}
+
+@keyframes incomingAnimation {
+    from{
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.incoming-message {
+    animation: incomingAnimation 1s ease-out forwards;
+}
+
+@keyframes sentAnimation {
+    from{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.sent-message {
+    animation: sentAnimation 1s ease-out forwards;
 }
