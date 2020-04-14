@@ -20,7 +20,7 @@ body {
     padding: 10px 20px;
     color: #1A1A1A;
     font-family: 'Open Sans', sans-serif;
-    height: 850px;
+    height: 100%;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-/* @keyframes fadeIn {
+@keyframes fadeIn {
     from{
         opacity: 0;
         transform: translateY(50px);
@@ -37,9 +37,9 @@ a {
         opacity: 1;
         transform: none;
     }
-} */
+}
 
 main {
     padding-top: 100px;
-    /* animation: fadeIn 1s ease-in-out; */
+    animation: fadeIn 0.5s ease-in-out;
 }
