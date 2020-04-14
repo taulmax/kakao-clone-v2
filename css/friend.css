@@ -2,19 +2,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .friend .friend__avatar {
     width: 50px;
+    height: 50px;
     border-radius: 37%;
 }
 
 .friend__avatar.g-avatar {
     width: 70px;
+    height: 70px;
 }
 
 .friend__avatar.m-avatar {
     width: 60px;
+    height: 60px;
 }
 
 .friend .friend__column {
@@ -74,4 +78,25 @@
 
 .jihyun {
     padding-bottom: 40px;
+}
+
+.friend-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.chat__noread-message {
+    display: flex;
+    font-size: 10px;
+    color: white;
+    background-color: #dc5d46;
+    width: 17px;
+    height: 17px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 10px;
 }
