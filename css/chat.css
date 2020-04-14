@@ -4,7 +4,7 @@
 }
 
 .chats-body {
-    background-image: url("../images/pixel-heart.png");
+    background-image: url("https://i.pinimg.com/474x/e5/39/a0/e539a00e8324eba1bac132dae05152d5.jpg");
 }
 
 .chats__status-bar {
@@ -161,6 +161,7 @@
     display: block;
     font-weight: 600;
     font-size: 14px;
+    color: white;
 }
 
 .chat__write-column .chat__write-icon i {
@@ -169,7 +170,7 @@
 
 .incoming-message .message__bubble {
     border-bottom-left-radius: 0px;
-    background-image: linear-gradient(to right, #AA076B, #61045F);
+    background-image: linear-gradient(to right, #bce334, #5acaff);
 }
 
 .sent-message .message__bubble {

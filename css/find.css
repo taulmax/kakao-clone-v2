@@ -24,6 +24,7 @@
   
   .find .header-btn__icon {
     font-size: 12px;
+    cursor: pointer;
   }
   
   .find .find__recommended {
@@ -36,4 +37,12 @@
       font-size: 12px;
       opacity: 0.7;
       margin-bottom: 20px;
+  }
+
+  .find__friend {
+    margin-bottom: 25px;
+  }
+
+  .find__friend:last-child {
+    padding-bottom: 40px;
   }
