@@ -1,5 +1,6 @@
 .chats__chat {
     padding-bottom: 15px;
+    cursor: pointer;
 }
 
 .last-chat {
