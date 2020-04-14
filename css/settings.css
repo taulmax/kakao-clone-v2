@@ -4,6 +4,14 @@
     padding: 25px 0px;
 }
 
+.settings .settings__sections {
+    margin-top: -25px;
+}
+
+.settings {
+    height: 100%;
+}
+
 .settings__setting {
     display: flex;
 }

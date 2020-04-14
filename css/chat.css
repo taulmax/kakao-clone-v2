@@ -1,3 +1,11 @@
+.chats__chat {
+    padding-bottom: 15px;
+}
+
+.last-chat {
+    padding-bottom: 50px;
+}
+
 .chat__header {
     box-shadow:  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
     padding-bottom: 30px;
@@ -94,6 +102,7 @@
     background-color: white;
     font-size: 12px;
     padding: 5px 10px;
+    margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
     text-transform: uppercase;
