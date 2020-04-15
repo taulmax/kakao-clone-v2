@@ -1,0 +1,84 @@
+.background-image-backprofile {
+    height: 95vh;
+    background-image: url("images/backprofile.jpg");
+}
+
+.backprofile__header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backprofile__header-column {
+    margin: 0px 20px;
+    font-size: 28px;
+}
+
+.backprofile__header-column:last-child span {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.backprofile__header-column:last-child span i {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.backprofile__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 200px;
+}
+
+.backprofile__profile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backprofile__profile-content img {
+    width: 120px;
+    height: 120px;
+    border-radius: 40%;
+}
+
+.backprofile__profile-name {
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.backprofile__nav {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    padding: 35px 0px;
+}
+
+.backprofile__nav-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 45px;
+}
+
+.backprofile__nav-icon i {
+    font-size: 40px;
+}
+
+.backprofile__nav-title {
+    margin-top: 15px;
+    font-size: 14px;
+}
