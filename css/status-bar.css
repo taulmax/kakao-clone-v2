@@ -12,6 +12,17 @@
     z-index: 100;
 }
 
+.backprofile__status-bar {
+    display: flex;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+
 .status-bar .status-bar__clock {
     font-size: 14px;
 }
