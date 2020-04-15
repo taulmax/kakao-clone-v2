@@ -1,13 +1,25 @@
+.backprofile__body {
+    padding: 0px;
+}
+
 .background-image-backprofile {
-    height: 95vh;
-    background-image: url("images/backprofile.jpg");
+    height: 100vh;
+    background-image: url("../images/backprofile.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.background-opacity-backprofile {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
 }
 
 .backprofile__header {
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .backprofile__header-column {
@@ -21,7 +33,7 @@
 }
 
 .backprofile__header-column:last-child span i {
-    border: 2px solid black;
+    border: 1.5px solid white;
     border-radius: 50%;
     padding: 5px;
 }
@@ -52,6 +64,7 @@
 .backprofile__profile-name {
     font-size: 21px;
     margin-top: 15px;
+    color: white;
 }
 
 .backprofile__nav {
@@ -62,7 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid black;
+    border-top: 1px solid white;
     padding: 35px 0px;
 }
 
@@ -72,6 +85,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px 45px;
+    color: white;
 }
 
 .backprofile__nav-icon i {
